@@ -7,7 +7,7 @@ cd /home/ubuntu
 curl -sL https://rpm.nodesource.com/setup_18.x | sudo -E bash -
 
 #_Download_Node_&NPM
-apt-get -y install nodejs npm
+sudo apt-get -y install nodejs npm
 
 #_Download_PM2
 rm -rf node_modules
